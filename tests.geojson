@@ -1,0 +1,229 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.1198,
+                    9.9252
+                ]
+            },
+            "properties": {
+                "name": "Madurai",
+                "native_name": "மதுரை"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.5946,
+                    12.9716
+                ]
+            },
+            "properties": {
+                "name": "Bengaluru",
+                "native_name": "ಬೆಂಗಳೂರು"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.4867,
+                    17.3850
+                ]
+            },
+            "properties": {
+                "name": "Hyderabad",
+                "native_name": "హైదరాబాద్"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.2707,
+                    13.0827
+                ]
+            },
+            "properties": {
+                "name": "Chennai",
+                "native_name": "சென்னை"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.8567,
+                    18.5204
+                ]
+            },
+            "properties": {
+                "name": "Pune",
+                "native_name": "पुणे"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.8777,
+                    19.0760
+                ]
+            },
+            "properties": {
+                "name": "Mumbai",
+                "native_name": "मुंबई"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.2185,
+                    17.6868
+                ]
+            },
+            "properties": {
+                "name": "Visakhapatnam",
+                "native_name": "విశాఖపట్నం"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    79.0882,
+                    21.1458
+                ]
+            },
+            "properties": {
+                "name": "Nagpur",
+                "native_name": "नागपूर"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.3639,
+                    22.5726
+                ]
+            },
+            "properties": {
+                "name": "Kolkata",
+                "native_name": "কলকাতা"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    75.5762,
+                    31.3260
+                ]
+            },
+            "properties": {
+                "name": "Jalandhar",
+                "native_name": "ਜਲੰਧਰ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.3240,
+                    27.7172
+                ]
+            },
+            "properties": {
+                "name": "Kathmandu",
+                "native_name": "काठमाडौँ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    96.0891,
+                    21.9588
+                ]
+            },
+            "properties": {
+                "name": "Mandalay",
+                "native_name": "မန္တလေး"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    96.4663,
+                    17.3270
+                ]
+            },
+            "properties": {
+                "name": "Bago",
+                "native_name": "ပဲခူးမြို့"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.5018,
+                    13.7563
+                ]
+            },
+            "properties": {
+                "name": "Bangkok",
+                "native_name": "กรุงเทพมหานคร"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.9282,
+                    11.5564
+                ]
+            },
+            "properties": {
+                "name": "Phnom Penh",
+                "native_name": "ភ្នំពេញ"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.8448,
+                    13.3671
+                ]
+            },
+            "properties": {
+                "name": "Krong Siem Reap",
+                "native_name": "ក្រុងសៀមរាប"
+            }
+        }
+    ]
+}

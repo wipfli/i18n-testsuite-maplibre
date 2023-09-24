@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Label Testsuite</title>
+    <meta property="og:description" content="Label Testsuite" />
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='https://unpkg.com/maplibre-gl@3.3.1/dist/maplibre-gl.css' />
+    <script src='https://unpkg.com/maplibre-gl@3.3.1/dist/maplibre-gl.js'></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body,
+        #map {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <canvas id='textCanvas' height=20></canvas>
+    <script>
+        const map = new maplibregl.Map({
+            container: 'map',
+            style: 'style.json',
+            center: [92.24, 20.82],
+            zoom: 4,
+            hash: 'map'
+        });
+
+        var ctx = document.getElementById('textCanvas').getContext('2d', { willReadFrequently: true }); //Hidden canvas
+
+        var loadedIds = [];
+        map.on('styleimagemissing', function (e) {
+
+            var id = e.id; // id of the missing image
+            console.log('canvas render:', id);
+
+            if (loadedIds.includes(id)) {
+                // console.log('already loaded', id);
+                return;
+            }
+            loadedIds.push(id);
+
+            // check if this missing icon is one this function can generate
+
+            var text = id;
+            var fontSize = 20;
+            
+            ctx.font = `${fontSize}px sans`;
+            ctx.canvas.width = ctx.measureText(text).width;
+            ctx.canvas.height = 1.5 * fontSize;
+
+            ctx.fillStyle = "white";
+            ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+
+            ctx.fillStyle = "black";
+            ctx.font = `${fontSize}px sans`;
+            ctx.fillText(text, 0, fontSize);
+
+            map.loadImage(
+                ctx.canvas.toDataURL(),
+                function (error, image) {
+                    if (error) throw error;
+                    map.addImage(id, image);
+                });
+        });
+
+        fetch('tests.geojson')
+            .then(data => data.json())
+            .then(geojson => {
+                map.on('load', () => {
+                    map.addSource('tests', {
+                        'type': 'geojson',
+                        'data': geojson
+                    });
+
+                    map.addLayer({
+                        'id': 'tests',
+                        'type': 'symbol',
+                        'source': 'tests',
+                        'layout': {
+                            'text-field': [
+                                'format',
+                                ['get', 'name'],
+                                {},
+                                '\n',
+                                {},
+                                ['get', 'native_name'],
+                                {}
+                            ],
+                            'icon-image': ['get', 'native_name'],
+                            'icon-offset': [0, 35],
+                        }
+                    });
+                });
+            });
+
+        // map.on('load', () => {
+        //     map.addLayer({
+        //         'id': 'maine',
+        //         'type': 'fill',
+        //         'source': 'maine',
+        //         'layout': {},
+        //         'paint': {
+        //             'fill-color': '#088',
+        //             'fill-opacity': 0.8
+        //         }
+        //     });
+        // });
+    </script>
+</body>
+
+</html>
