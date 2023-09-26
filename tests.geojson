@@ -1,1 +1,396 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [46.6753, 24.7136]}, "properties": {"name": "Riyadh", "native_name": "\u0627\u0644\u0631\u064a\u0627\u0636", "script": "Arabic"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [72.8777, 19.076]}, "properties": {"name": "Mumbai", "native_name": "\u092e\u0941\u0902\u092c\u0908", "script": "Devanagari"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [80.127, 13.0969]}, "properties": {"name": "Chennai", "native_name": "\u0b9a\u0bc6\u0ba9\u0bcd\u0ba9\u0bc8", "script": "Tamil"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [77.5946, 12.9716]}, "properties": {"name": "Bangalore", "native_name": "\u0cac\u0cc6\u0c82\u0c97\u0cb3\u0cc2\u0cb0\u0cc1", "script": "Kannada"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [76.9366, 8.5241]}, "properties": {"name": "Thiruvananthapuram", "native_name": "\u0d24\u0d3f\u0d30\u0d41\u0d35\u0d28\u0d28\u0d4d\u0d24\u0d2a\u0d41\u0d30\u0d02", "script": "Malayalam"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [78.4867, 17.385]}, "properties": {"name": "Hyderabad", "native_name": "\u0c39\u0c48\u0c26\u0c30\u0c3e\u0c2c\u0c3e\u0c26\u0c4d", "script": "Telugu"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [96.1951, 16.8661]}, "properties": {"name": "Yangon", "native_name": "\u101b\u1014\u103a\u1000\u102f\u1014\u103a", "script": "Myanmar"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [72.5714, 23.0225]}, "properties": {"name": "Ahmedabad", "native_name": "\u0a85\u0aae\u0aa6\u0abe\u0ab5\u0abe\u0aa6", "script": "Gujarati"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [88.3639, 22.5726]}, "properties": {"name": "Kolkata", "native_name": "\u0995\u09b2\u0995\u09be\u09a4\u09be", "script": "Bengali"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [74.873, 31.634]}, "properties": {"name": "Amritsar", "native_name": "\u0a05\u0a70\u0a2e\u0a4d\u0a30\u0a3f\u0a24\u0a38\u0a30", "script": "Gurmukhi"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [102.6331, 17.9757]}, "properties": {"name": "Vientiane", "native_name": "\u0ea7\u0ebd\u0e87\u0e88\u0eb1\u0e99", "script": "Lao"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [104.9175, 11.5588]}, "properties": {"name": "Phnom Penh", "native_name": "\u1797\u17d2\u1793\u17c6\u1796\u17c1\u1789", "script": "Khmer"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [91.1322, 29.6516]}, "properties": {"name": "Lhasa", "native_name": "\u0f63\u0fb7\u0f0b\u0f66", "script": "Tibetan"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [79.8612, 6.9271]}, "properties": {"name": "Colombo", "native_name": "\u0d9a\u0ddc\u0dc5\u0db9", "script": "Sinhala"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [73.5093, 4.1755]}, "properties": {"name": "Mal\u00e9", "native_name": "\u0789\u07a7\u078d\u07ac", "script": "Thaana"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [85.8245, 20.2961]}, "properties": {"name": "Bhubaneswar", "native_name": "\u0b2d\u0b41\u0b2c\u0b28\u0b47\u0b36\u0b4d\u0b71\u0b30", "script": "Oriya"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [43.0932, 36.7455]}, "properties": {"name": "Alqosh", "native_name": "\u0710\u0720\u0729\u0718\u072b", "script": "Syriac"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [-9.3085, 10.385]}, "properties": {"name": "Kankan", "native_name": "\u07de\u07ca\u07f2\u07de\u07ca\u07f2\u07de\u07ca", "script": "Nko"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [106.9173, 47.9188]}, "properties": {"name": "Ulaanbaatar", "native_name": "\u0423\u043b\u0430\u0430\u043d\u0431\u0430\u0430\u0442\u0430\u0440", "script": "Mongolian"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [115.2167, 8.65]}, "properties": {"name": "Denpasar", "native_name": "\u1b24\u1b3e\u1b26\u1b44\u1b27\u1b32\u1b03", "script": "Balinese"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [98.6722, 3.5952]}, "properties": {"name": "Medan", "native_name": "\u1bd4\u1be9\u1bd1\u1bc9\u1bf2", "script": "Batak"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [109.1966, 12.2388]}, "properties": {"name": "Nha Trang", "native_name": "---", "script": "Cham"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [112.7521, 7.2575]}, "properties": {"name": "Surabaya", "native_name": "\ua9b1\ua9b8\ua9ab\ua9a7\ua9aa", "script": "Javanese"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [88.6065, 27.3389]}, "properties": {"name": "Gangtok", "native_name": "\u0f62\u0f92\u0f0b\u0f66\u0f90\u0f7c\u0f62\u0f0d", "script": "Lepcha"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [87.6799, 27.3534]}, "properties": {"name": "Taplejung", "native_name": "\u1910\u1920\u1915\u1922\u1918\u1921\u1915", "script": "Limbu"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [48.6706, 31.3183]}, "properties": {"name": "Al Ahvaz", "native_name": "\ud800\udf80\ud800\udf8b \ud800\udf8b\ud800\udf9c\ud800\udf8b\ud800\udf98\ud800\udf8e", "script": "Mandaic"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [93.9368, 24.817]}, "properties": {"name": "Imphal", "native_name": "\uabcf\uabdd\uabc0\uabe5\uabdf", "script": "Meetei Mayek"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [100.5413, 21.6924]}, "properties": {"name": "Xishuangbanna", "native_name": "\u1991\u19b3\u19c5\u19c4\u19a8\u19ba\u199f\u19b8\u19a9\u19c2\u199f\u19b8\u199c\u19ba\u199f\u19b1", "script": "New Tai Lue"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [70.8022, 22.3039]}, "properties": {"name": "Rajkot", "native_name": "\u0ab0\u0abe\u0a9c\u0a95\u0acb\u0a9f", "script": "Saurashtra"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [107.6065, 6.9271]}, "properties": {"name": "Bandung", "native_name": "\u1b98\u1b94\u1baa\u1b93\u1ba5\u1b80", "script": "Sundanese"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [91.8705, 24.8898]}, "properties": {"name": "Sylhet", "native_name": "\ua80d\ua824\ua81f\ua810", "script": "Syloti Nagri"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [98.9857, 18.7883]}, "properties": {"name": "Chiang Mai", "native_name": "\u1a29\u1a60\u1a3f\u1a26\u1a49\u1a60\u1a3e\u1a4b\u1a26\u1a41", "script": "Tai Tham"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [105.8542, 21.0285]}, "properties": {"name": "Hanoi", "native_name": "H\u00e0 N\u1ed9i", "script": "Tai Viet"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [57.0836, 30.2839]}, "properties": {"name": "Kerman", "native_name": "\ud802\udf35\ud802\udf00\ud802\udf06\ud802\udf29\ud802\udf32\ud802\udf06\ud802\udf26", "script": "Avestan"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [85.324, 27.7172]}, "properties": {"name": "Kathmandu", "native_name": "\u092f\u0947\u0901", "script": "Brahmi"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [121.1807, 13.4086]}, "properties": {"name": "Calapan", "native_name": "\u1766\u176a\u176f\u1772\u1766\u1768", "script": "Buhid"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [31.2357, 30.0444]}, "properties": {"name": "Cairo", "native_name": "\ud80c\udc8b\ud80c\udfe4\ud80c\udfcf\ud80c\ude96", "script": "Egyptian Hieroglyphs"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [121.1807, 13.4086]}, "properties": {"name": "Calapan", "native_name": "\u1703\u170b\u1708\u1714\u170e\u1713\u1710\u1714", "script": "Hanunoo"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [71.0973, 33.6844]}, "properties": {"name": "Peshawar", "native_name": "\ud802\ude17\ud802\ude01\ud802\ude10\ud802\ude02\ud802\ude12\ud802\ude0f", "script": "Kharoshthi"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [116.4074, 39.9042]}, "properties": {"name": "Beijing", "native_name": "\u0f55\u0f42\u0f0b\u0f54", "script": "Phags Pa"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [102.2565, 3.8009]}, "properties": {"name": "Bengkulu", "native_name": "\ua937\ua949\ua93c\ua93b\ua934", "script": "Rejang"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [92.1729, 22.6543]}, "properties": {"name": "Rangamati", "native_name": "\u09aa\u09be\u09b0\u09cd\u09ac\u09a4\u09cd\u09af", "script": "Chakma"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [106.72, 26.578]}, "properties": {"name": "Guiyang", "native_name": "\u1950\u1971\u1963\u1950\u195f\u1970", "script": "Miao"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [74.857, 32.7266]}, "properties": {"name": "Jammu", "native_name": "\u091c\u092e\u094d\u092e\u0942", "script": "Sharada"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [77.1099, 31.9566]}, "properties": {"name": "Kullu", "native_name": "\u0915\u0941\u0932\u094d\u0932\u0942", "script": "Takri"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [94.633, 26.9855]}, "properties": {"name": "Sibsagar", "native_name": "\u09b6\u09bf\u09ac\u09b8\u09be\u0997\u09f0", "script": "Ahom"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [77.9665, 27.1767]}, "properties": {"name": "Mathura", "native_name": "---", "script": "Bhaiksuki"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [91.875, 27.586]}, "properties": {"name": "Tawang", "native_name": "\ud807\udd19\ud807\udd32\ud807\udd20\ud807\udd2c\ud807\udd1a", "script": "Marchen"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [85.324, 27.7172]}, "properties": {"name": "Kathmandu", "native_name": "\u0928\u0947\u092a\u093e\u0903", "script": "Newa"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [79.3081, 19.9975]}, "properties": {"name": "Chandrapur", "native_name": "\ud807\udd00\ud807\udd0e\ud807\udd15\ud807\udd1a\ud807\udd0c\ud807\udd22", "script": "Masaram Gondi"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [106.9173, 47.9188]}, "properties": {"name": "Ulaanbaatar", "native_name": "\u1824\u182f\u1820\u182d\u1820\u1828\u182a\u1820\u182d\u1820\u1832\u1824\u1837", "script": "Soyombo"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [106.9173, 47.9188]}, "properties": {"name": "Ulaanbaatar", "native_name": "\u1824\u182f\u1820\u182d\u1820\u1828\u182a\u1820\u182d\u1820\u1832\u1824\u1837", "script": "Zanabazar Square"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [74.857, 32.7266]}, "properties": {"name": "Jammu", "native_name": "\u091c\u092e\u094d\u092e\u0942", "script": "Dogra"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [78.532, 19.6646]}, "properties": {"name": "Adilabad", "native_name": "---", "script": "Gunjala Gondi"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [92.0058, 21.4272]}, "properties": {"name": "Cox's Bazar", "native_name": "\ud803\udd11\ud803\udd1d\ud803\udd27\ud803\udd1a\ud803\udd22\ud803\udd17 \ud803\udd1b\ud803\udd1f\ud803\udd23\ud803\udd1e\ud803\udd25\ud803\udd1d", "script": "Hanifi Rohingya"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [66.9597, 39.6552]}, "properties": {"name": "Samarkand", "native_name": "\ud803\udf30\ud803\udf51\ud803\udf49\ud803\udf56\ud803\udf43\ud803\udf40\ud803\udf51\ud803\udf44", "script": "Sogdian"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [76.6394, 12.2958]}, "properties": {"name": "Mysore", "native_name": "\ud804\udf2e\ud804\udf48\ud804\udf38\ud804\udf42\ud804\udf30\ud804\udf41", "script": "Nandinagari"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [64.4555, 39.768]}, "properties": {"name": "Bukhara", "native_name": "---", "script": "Chorasmian"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [80.4611, 5.9438]}, "properties": {"name": "Mirissa", "native_name": "---", "script": "Dives Akuru"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [75.9938, 39.4677]}, "properties": {"name": "Kashgar", "native_name": "\ud803\udc34\ud803\udc0d\ud803\udc23\ud803\udc34\ud803\udc3a\ud803\udc0d\ud803\udc07", "script": "Old Uyghur"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [116.1167, 8.5833]}, "properties": {"name": "Mataram", "native_name": "\ua9a9\ua98f\ua9b6", "script": "Kawi"}}]}
+{
+    "type": "FeatureCollection",
+    "generator": "JOSM",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "native_name": "\u1019\u1014\u1039\u1010\u101c\u1031\u1038",
+                "name": "Mandalay",
+                "script": "Myanmar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    96.08237500000,
+                    21.98127460000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "native_name": "\u182a\u1824\u182d\u1824\u1832\u1824",
+                "name": "Baotou",
+                "script": "Mongolian"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109.83438150000,
+                    40.65501920000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cox's Bazar",
+                "native_name": "\ud803\udd11\ud803\udd1d\ud803\udd27\ud803\udd1a\ud803\udd22\ud803\udd17 \ud803\udd1b\ud803\udd1f\ud803\udd23\ud803\udd1e\ud803\udd25\ud803\udd1d",
+                "script": "Hanifi Rohingya"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    92.01690910000,
+                    21.45202380000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "native_name": "\u0f63\u0fb7\u0f0b\u0f66\u0f0d",
+                "name": "Lhasa",
+                "script": "Tibetan"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    91.17047360000,
+                    29.65538950000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "native_name": "\u0995\u09b2\u0995\u09be\u09a4\u09be",
+                "name": "Kolkata",
+                "script": "Bangla"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.36389530000,
+                    22.57264590000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Biratnagar",
+                "native_name": "\u092c\u093f\u0930\u093e\u091f\u0928\u0917\u0930",
+                "script": "Devanagari"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.28161700000,
+                    26.46230070000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "native_name": "\u0729\u0721\u072b\u0720\u071d",
+                "name": "Qamishli",
+                "script": "Syriac"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    41.23288360000,
+                    37.04025290000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Imphal",
+                "native_name": "\uabcf\uabdd\uabc0\uabe5\uabdf",
+                "script": "Meetei Mayek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    93.93644190000,
+                    24.79911620000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Medan",
+                "native_name": "\u1bd4\u1be9\u1bd1\u1bc9\u1bf2",
+                "script": "Batak"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.67382610000,
+                    3.58966540000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bengkulu",
+                "script": "Rejang",
+                "native_name": "\ua937\ua949\ua93c\ua93b\ua934"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.26237970000,
+                    -3.79228580000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Taplejung",
+                "native_name": "\u1910\u1920\u1915\u1922\u1918\u1921\u1915",
+                "script": "Limbu"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    87.67272570000,
+                    27.35869780000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "native_name": "\u0dc1\u0dca\u200d\u0dbb\u0dd3\u0020\u0da2\u0dba\u0dc0\u0dbb\u0dca\u0db0\u0db1\u0db4\u0dd4\u0dbb\u0020\u0d9a\u0ddd\u0da7\u0dca\u0da7\u0dda",
+                "name": "Sri Jayawardenepura Kotte",
+                "script": "Sinhala"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    79.91874150000,
+                    6.88832190000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "native_name": "\u0a05\u0a70\u0a2e\u0a4d\u0a30\u0a3f\u0a24\u0a38\u0a30",
+                "name": "Amritsar",
+                "script": "Gurmukhi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.87367880000,
+                    31.63430830000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "native_name": "\u0d24\u0d3f\u0d30\u0d41\u0d35\u0d28\u0d28\u0d4d\u0d24\u0d2a\u0d41\u0d30\u0d02",
+                "name": "Thiruvananthapuram",
+                "script": "Malayalam"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    76.94755100000,
+                    8.48822670000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "native_name": "\u0627\u0644\u0631\u064a\u0627\u0636",
+                "name": "Riyadh",
+                "script": "Arabic"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    46.71601040000,
+                    24.63891600000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Guiyang",
+                "script": "Miao",
+                "native_name": "\u1950\u1971\u1963\u1950\u195f\u1970"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.62461780000,
+                    26.64999220000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "native_name": "\u179a\u17b6\u1787\u1792\u17b6\u1793\u17b8\u1797\u17d2\u1793\u17c6\u1796\u17c1\u1789",
+                "name": "Phnom Penh",
+                "script": "Khmer"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.92244260000,
+                    11.56827100000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "native_name": "\u0e1e\u0e23\u0e30\u0e19\u0e04\u0e23\u0e28\u0e23\u0e35\u0e2d\u0e22\u0e38\u0e18\u0e22\u0e32",
+                "name": "Phra Nakhon Si Ayutthaya",
+                "script": "Thai"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.56456840000,
+                    14.35354270000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "native_name": "\u0b2d\u0b41\u0b2c\u0b28\u0b47\u0b36\u0b4d\u0b71\u0b30",
+                "name": "Bhubaneshwar",
+                "script": "Odia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.83945210000,
+                    20.26029640000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "native_name": "\u0cac\u0cc6\u0c82\u0c97\u0cb3\u0cc2\u0cb0\u0cc1",
+                "name": "Bengaluru",
+                "script": "Kannada"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.59008200000,
+                    12.97679360000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "native_name": "\u07d3\u07e1\u07ca\u07ec\u07de\u07d0\u07eb",
+                "name": "Bamako",
+                "script": "NKo"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.00033700000,
+                    12.64931900000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "native_name": "\u0789\u07a7\u078d\u07ac",
+                "name": "Malé",
+                "script": "Thaana"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.51073870000,
+                    4.17798790000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "native_name": "\u0c35\u0c3f\u0c36\u0c3e\u0c16\u0c2a\u0c1f\u0c4d\u0c28\u0c02",
+                "name": "Visakhapatnam",
+                "script": "Telugu"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83.30128420000,
+                    17.72312760000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "native_name": "\u0b9a\u0bc6\u0ba9\u0bcd\u0ba9\u0bc8",
+                "name": "Chennai",
+                "script": "Tamil"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.27018600000,
+                    13.08369390000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "native_name": "\u0ea7\u0ebd\u0e87\u0e88\u0eb1\u0e99",
+                "name": "Vientiane",
+                "script": "Lao"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.61337070000,
+                    17.96409880000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "native_name": "\u0a85\u0aae\u0aa6\u0abe\u0ab5\u0abe\u0aa6",
+                "name": "Ahmedabad",
+                "script": "Gujarati"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.57970680000,
+                    23.02162380000
+                ]
+            }
+        }
+    ]
+}
