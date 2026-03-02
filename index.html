@@ -6,8 +6,8 @@
     <meta property="og:description" content="Label Testsuite" />
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel='stylesheet' href='https://unpkg.com/maplibre-gl@3.3.1/dist/maplibre-gl.css' />
-    <script src='https://unpkg.com/maplibre-gl@3.3.1/dist/maplibre-gl.js'></script>
+    <link rel='stylesheet' href='https://unpkg.com/maplibre-gl@5.19.0/dist/maplibre-gl.css' />
+    <script src='https://unpkg.com/maplibre-gl@5.19.0/dist/maplibre-gl.js'></script>
     <style>
         body {
             margin: 0;
@@ -28,7 +28,7 @@
     <script>
         const map = new maplibregl.Map({
             container: 'map',
-            style: 'style.json',
+            style: 'https://wipfli.github.io/i18n-testsuite-maplibre/style.json',
             center: [92.24, 20.82],
             zoom: 4,
             hash: 'map'
@@ -37,7 +37,7 @@
         var ctx = document.getElementById('textCanvas').getContext('2d', { willReadFrequently: true }); //Hidden canvas
 
         var loadedIds = [];
-        map.on('styleimagemissing', function (e) {
+        map.on('styleimagemissing', async (e) => {
 
             var id = e.id; // id of the missing image
             console.log('canvas render:', id);
@@ -64,15 +64,16 @@
             ctx.font = `${fontSize}px sans`;
             ctx.fillText(text, 0, fontSize);
 
-            map.loadImage(
-                ctx.canvas.toDataURL(),
-                function (error, image) {
-                    if (error) throw error;
-                    map.addImage(id, image);
-                });
+            try {
+                const img = await map.loadImage(ctx.canvas.toDataURL());
+                map.addImage(id, img.data);
+                console.log(`✅ Added placeholder for "${id}"`);
+            } catch (err) {
+                console.error('Failed to add generated image:', err);
+            }
         });
 
-        fetch('tests.geojson')
+        fetch('https://wipfli.github.io/i18n-testsuite-maplibre/tests.geojson')
             .then(data => data.json())
             .then(geojson => {
                 map.on('load', () => {
