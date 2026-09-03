@@ -6,8 +6,7 @@
     <meta property="og:description" content="Label Testsuite" />
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel='stylesheet' href='https://unpkg.com/maplibre-gl@5.19.0/dist/maplibre-gl.css' />
-    <script src='https://unpkg.com/maplibre-gl@5.19.0/dist/maplibre-gl.js'></script>
+    <link rel='stylesheet' href='https://unpkg.com/maplibre-gl@6.7.0/dist/maplibre-gl.css' />
     <style>
         body {
             margin: 0;
@@ -25,14 +24,21 @@
 <body>
     <div id="map"></div>
     <canvas id='textCanvas' height=20></canvas>
-    <script>
+    <script type="module">
+        import * as maplibregl from 'https://unpkg.com/maplibre-gl@6.7.0/dist/maplibre-gl.mjs';
+
         const map = new maplibregl.Map({
             container: 'map',
-            style: 'https://wipfli.github.io/i18n-testsuite-maplibre/style.json',
+            style: './style.json',
             center: [92.24, 20.82],
             zoom: 4,
             hash: 'map'
         });
+
+        maplibregl.setRTLTextPlugin(
+            'https://unpkg.com/@mapbox/mapbox-gl-rtl-text@0.3.0/dist/mapbox-gl-rtl-text.js',
+            true // Lazy load the plugin
+        );
 
         var ctx = document.getElementById('textCanvas').getContext('2d', { willReadFrequently: true }); //Hidden canvas
 
@@ -110,6 +116,7 @@
                             ],
                             'icon-image': ['get', 'native_name'],
                             'icon-offset': [0, 50],
+                            'text-font': ['Noto Sans Regular'],
                         },
                         'paint': {
                             'text-halo-width': 3,
